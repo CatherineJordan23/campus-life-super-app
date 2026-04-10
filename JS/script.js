@@ -28,3 +28,8 @@ function saveFavorite(place) {
     localStorage.setItem("favoriteDining", place);
     alert(place + " saved!");
 }
+
+// MAP INTERACTION
+function selectLocation(location) {
+    alert("Showing location: " + location);
+}
