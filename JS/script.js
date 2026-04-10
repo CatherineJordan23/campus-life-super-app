@@ -22,3 +22,9 @@ if (eventsContainer) {
         eventsContainer.appendChild(div);
     });
 }
+
+// LOCAL STORAGE (Dining Favorites)
+function saveFavorite(place) {
+    localStorage.setItem("favoriteDining", place);
+    alert(place + " saved!");
+}
