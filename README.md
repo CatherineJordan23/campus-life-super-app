@@ -47,6 +47,12 @@ Semantic HTML structure (`header`, `nav`, `main`, `footer`)
 Readable color contrast
 Accessible navigation links and buttons
 
+#Future Improvements
+Add search and filterinf for events
+Integrate a real campus dining API
+Improve UI/UX design and animations
+Add user accounts and login system
+expand map funcitonality with directions
 # Setup and Installation
 To run this project locally:
 1. Clone the repository:
