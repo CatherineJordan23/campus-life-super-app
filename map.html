@@ -4,11 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Map</title>
+    <!--Bootstrap and Custom CSS-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
 </head>
 <body>
-    
+    <!--Navigation-->
     <nav class="navbar navbar-dark bg-dark">
         <div class="container">
             <a href="index.html" class="navbar-brand">Home</a>
@@ -19,18 +21,21 @@
         <h2>Study Spots</h2>
 
         <!--MAP PLACEHOLDER-->
-        <div class="map-box mb-3">
+        <!--This will later be replaced with a real map API-->
+        <div id="map" style="height: 400px;"></div>
             <p>Map will display here (API integration later)</p>
         </div>
 
-        <!--Locations-->
+        <!--List of Locations-->
+        <!--Clicking triggers JavaScript interaction-->
         <ul>
-            <li onclick="selectLocation('Library')">Library</li>
-            <li onclick="selectLocation('Student Center')">Student Center</li>
-            <li onclick="selectLocation('Quiet Room')">Quiet Room</li>
+            <li>Main Library</li>
+            <li>Student Center</li>
+            <li>Quiet Room</li>
         </ul>
     </div>
 
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script src="js/script.js"></script>
 </body>
 </html>

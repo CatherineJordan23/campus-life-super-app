@@ -1,7 +1,9 @@
+/* General Styles */
 body {
     font-family: Arial, sans-serif;
 }
-
+/*Map Section*/
+/*Placeholder styling for map area*/
 .map-box {
     height: 300px;
     background-color: lightgrey;
